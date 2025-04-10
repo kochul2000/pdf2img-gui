@@ -1,0 +1,1 @@
+pyinstaller --onefile --paths=".\venv\Lib\site-packages" --name "pdf2img-gui" .\main.pyw
