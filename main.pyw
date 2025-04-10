@@ -113,7 +113,7 @@ def convert_pdf_to_images():
 
 # Tkinter GUI 기본 창 설정 (타이틀에 VERSION 추가)
 root = tk.Tk()
-root.title(f"PDF -> Image 변환기 (PyMuPDF) - VERSION={VERSION}")
+root.title(f"PDF -> Image 변환기 (PyMuPDF) - v{VERSION}")
 
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack()
